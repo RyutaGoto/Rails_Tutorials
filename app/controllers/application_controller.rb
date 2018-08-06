@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
     render html: "goodbye, world!"
   end
 
+  def test
+    render html: "test text"
+  end
+
 end
